@@ -1,0 +1,27 @@
+# Input
+nama = input("Masukkan nama Anda: ")
+umur = int(input("Masukkan umur Anda: "))
+print("Nama:", nama)
+print("Umur:", umur)
+
+# String Manipulation
+kalimat = "Belajar Python itu Menyenangkan"
+print(kalimat.upper())     # Mengubah ke huruf kapital semua
+print(kalimat.lower())     # Mengubah ke huruf kecil semua
+print(kalimat.title())     # Awal setiap kata kapital
+print(kalimat.replace("Menyenangkan", "Seru"))  # Mengganti kata
+
+# String Slicing
+print()        # Menampilkan kata pertama
+
+
+#output yang akan muncul setelah di run
+Masukkan nama Anda: yusup
+Masukkan umur Anda: 20
+Nama: yusup
+Umur: 20
+BELAJAR PYTHON ITU MENYENANGKAN
+belajar python itu menyenangkan
+Belajar Python Itu Menyenangkan
+Belajar Python itu Seru
+Belajar
